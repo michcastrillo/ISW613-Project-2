@@ -1,0 +1,6 @@
+.conteinerNav{
+    display: flex;
+    justify-content: space-between;
+    margin: .5rem;
+    padding: .4rem;
+}

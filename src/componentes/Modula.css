@@ -1,0 +1,13 @@
+.contePrincipal{
+    width: 100%;
+    background-color: rgb(189, 120, 120);
+    margin-bottom: 1rem;
+
+}
+.conteiner{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* justify-content:space-around;
+    text-align: center; */
+}

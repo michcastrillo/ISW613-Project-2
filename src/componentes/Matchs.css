@@ -1,0 +1,11 @@
+.conteiner{
+    display: flex;
+    border: 1px solid ridge;
+}
+.conteinerEle{
+    display: flex;
+}
+.conteMatchU{
+    display: flex;
+    border: 1px solid red;
+}

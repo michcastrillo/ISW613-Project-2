@@ -1,0 +1,10 @@
+.conteGroup{
+    display: flex;
+    text-align: center;
+}
+.liPais{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
