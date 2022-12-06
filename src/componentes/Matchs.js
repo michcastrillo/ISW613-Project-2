@@ -6,7 +6,7 @@ import 'react-datepicker/dist/react-datepicker.css'
 import MatchsUni from './MatchsUni';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-// import 'Matchs.css'
+import './Matchs.css'
 
 const Matchs = () => {
 
@@ -85,21 +85,21 @@ const Matchs = () => {
   return (
     <div>
       <Modulo  key={Math.random()*1000}/>
-      <h1>MATCHS</h1>
+      <h2>Matchs</h2>
       <div className='conteiner'>
         <div>
-          <button onClick={handleAllMatchs}>All Matchas</button>
+          <button className='btnDate' onClick={handleAllMatchs}>All Matches</button>
         </div>
         <div className='conteinerEle'>
-          <label htmlFor="fecha">Date</label>
+          <label htmlFor="fecha">Date:</label>
           <DatePicker 
           selected={fecha} 
           onChange={date =>setFecha(date)}
           />
-          <button onClick={handleBtnFecha}>Match date</button>
+          <button className='btnDate' onClick={handleBtnFecha}>Match date</button>
         </div>
         <div className='conteinerEle'>
-        <label htmlFor="fecha">Day</label>
+        <label htmlFor="fecha">Day:</label>
           <select name='diaJuego' id='selecDay'onChange={handleDia} >
             {
             dias.length && (

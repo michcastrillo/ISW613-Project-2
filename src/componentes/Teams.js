@@ -4,6 +4,7 @@ import Modulo from './Modulo';
 import { Prueba } from './Prueba';
 import Team from './Team';
 
+
 const Teams = () => {
 
   const [teams, setTeams] = useState([]);
@@ -54,7 +55,7 @@ const Teams = () => {
   return (
     <div>
       <Modulo/>
-      <h1>Teams</h1>
+      <h2>Teams</h2>
       {/* <button onClick={recorrer}>Ver</button>
       <Team listTeams={teams}/> */}
       {

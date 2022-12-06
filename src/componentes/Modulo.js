@@ -10,18 +10,20 @@ const Modulo = () => {
     <div className='contePrincipal'>
       <Navegation/>
       <div className='conteiner'>
-        <div>
-          <Link to={'/home'}>Home</Link>
-        </div>
-        <div>
-          <Link to={'/teams'}>TEAMS</Link>
-        </div>
-        <div>
-          <Link to={'/matchs'}>Matchs</Link>
-        </div>
-        <div>
-          <Link to={'/standing'}>Standing</Link>
-        </div>
+        <ul>
+          <li>
+            <Link to={'/home'}>Home</Link>
+          </li>
+          <li>
+            <Link to={'/teams'}>Teams</Link>
+          </li>
+          <li>
+            <Link to={'/matchs'}>Matchs</Link>
+          </li>
+          <li>
+            <Link to={'/standing'}>Standing</Link>
+          </li>
+        </ul>
       </div>
     </div>
   )

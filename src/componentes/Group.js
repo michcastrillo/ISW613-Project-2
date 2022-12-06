@@ -4,12 +4,12 @@ import './Group.css';
 const Group = ({grupo, equipos}) => {
 
   return (
-    <div>
+    <div className='grupoClass'>
         <h3 key={Math.random()*1000}>{`GRUPO ${grupo}`}</h3>
         {
         equipos.length && (
             equipos.map(ele => (
-              <div className='conteGroup'>
+              <div className='contenedorGroup'>
                 <li key={Math.random()*1000}>
                   <img src={ele.flag} alt={ele.name_en}/>
                   </li>

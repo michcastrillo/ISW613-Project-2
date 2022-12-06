@@ -1,6 +1,14 @@
 .conteinerNav{
     display: flex;
     justify-content: space-between;
-    margin: .5rem;
-    padding: .4rem;
+    background-color: #fff;
+}
+.linkClass{
+    margin-top: 16px;
+    margin-right: 16px;
+}
+p {
+    padding-bottom: 0px;
+    margin-left: 16px;
+    margin-bottom: 0px;
 }

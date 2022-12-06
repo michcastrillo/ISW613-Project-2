@@ -1,6 +1,6 @@
 .contePrincipal{
     width: 100%;
-    background-color: rgb(189, 120, 120);
+    background-color: #fff;
     margin-bottom: 1rem;
 
 }
@@ -8,6 +8,13 @@
     width: 100%;
     display: flex;
     justify-content: space-around;
-    /* justify-content:space-around;
-    text-align: center; */
+}
+ul {
+    list-style: none;
+    margin: auto;
+    margin-bottom: 16px;
+}
+li{
+    display: inline-block;
+    margin-right: 2pc;
 }

@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom';
-
+import './Login.css';
 
 
 // import axios from 'axios';
@@ -58,7 +58,7 @@ const Login = () => {
     const handleRegister = (e) => navigate('/register');
 
   return (
-    <div>
+    <div className="wrapper">
         <form>
             <h2>Log in!</h2>
             <fieldset>
@@ -68,7 +68,7 @@ const Login = () => {
                 <input type="password" id="password" name='pass' onChange={handleChange}/>
                 </fieldset>
                 <button onClick={handleLogin}>Login</button>
-                <button onClick={handleRegister}>Registrar</button>
+                <button onClick={handleRegister}>Sign up</button>
           </form>
     </div>
   )

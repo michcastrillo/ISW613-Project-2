@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom';
-import './Registro.css';
+import './Login.css';
 
 const objInicial = {
     name: "",
@@ -52,20 +52,22 @@ const Registro = () => {
     }
 
   return (
-    <>
-    <h2>Sign up</h2>
+    <div className="wrapper">
     <form>
-        <label htmlFor='name'>Name</label>
+        <h2>Sign up</h2>
+        <fieldset>
+        <label htmlFor='name'>Name: </label>
         <input type='text' id='name' name='name' onChange={hanbleForm}></input>
-        <label htmlFor='mail'>Email</label>
+        <label htmlFor='mail'>Email: </label>
         <input type='email' id='mail' name='mail' onChange={hanbleForm}></input>
-        <label htmlFor='pass'>Password</label>
+        <label htmlFor='pass'>Password:</label>
         <input type='password' id='pass' name='pass' onChange={hanbleForm}></input>
-        <label htmlFor='conpass'>Confirm password</label>
+        <label htmlFor='conpass'>Confirm password:</label>
         <input type='password' id='conpass' name='conpass' onChange={hanbleForm}></input>
-        <button onClick={handleClick}>Register</button>
+        </fieldset>
+        <button onClick={handleClick}>Create account</button>
     </form>
-    </>
+    </div>
   )
 }
 

@@ -15,8 +15,8 @@ const Navegation = () => {
         <div>
             <p>{`Welcome: ${nameU}`}</p>
         </div>
-        <div>
-        <Link to={'/login'} onClick = {handleClick} className='Link'>Logout</Link>
+        <div className='linkClass'>
+          <Link to={'/login'} onClick = {handleClick} className='Link'>Logout</Link>
         </div>
     </div>
   )
