@@ -55,10 +55,10 @@ const InfoMatch = () => {
           match.map(ele => (
             <div className='conteGroup'>
               <h2>{`Grupo ${ele.group}`}</h2>
-              <h3>{ele.time_elapsed}</h3>
-              <h4>{dateGame(ele.local_date)}</h4>
-              <h4>{`Day ${ele.matchday}`}</h4>
-              <div className='conteTeam'>
+              <h3 className='titInfo'>{ele.time_elapsed}</h3>
+              <h4 className='titInfo'>{dateGame(ele.local_date)}</h4>
+              {/* <h4>{`Day ${ele.matchday}`}</h4> */}
+              <div className='conteTeamInfo'>
                 <h3>{ele.away_team_en}</h3>
                 <img src={ele.away_flag} alt={ele.away_team_en}/>
                 <h3>{ele.away_score}</h3>
@@ -67,7 +67,7 @@ const InfoMatch = () => {
                 <img src={ele.home_flag} alt= {ele.home_team_en}/>
                 <h3>{ele.home_team_en}</h3>
             </div>
-            <h2 className='nameGols'>Gols</h2>
+            <h2 className='nameGols'>Goals</h2>
             <div className='conteGols'>
               <div className='right'>
               {

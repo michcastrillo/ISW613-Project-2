@@ -15,7 +15,6 @@ const MatchsUni = ({datePlay,hourPlay,group,flagOne,teamOne,scoreOne,flagTwo,tea
     <div className='conteinerP' key={Math.random()*1000} >
       <div className='conteMatchs'>
         <h2>{`Grupo ${group}`}</h2>
-        <h3>{`${datePlay}  ${hourPlay}`}</h3>
         <div className='conteTeam'>
             <h3>{teamOne}</h3>
             <img src={flagOne} alt={teamOne}/>
@@ -25,6 +24,7 @@ const MatchsUni = ({datePlay,hourPlay,group,flagOne,teamOne,scoreOne,flagTwo,tea
             <img src={flagTwo} alt= {teamOne}/>
             <h3>{teamWTwo}</h3>
         </div>
+        <h3 className='datePtd'>{`${datePlay}  ${hourPlay}`}</h3>
         <button data-id={id} onClick={handleBtn}>See more</button>
       </div>
     </div>

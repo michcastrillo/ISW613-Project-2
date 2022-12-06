@@ -2,7 +2,7 @@
     display: flex;
 }
 .conteMatchs{
-    border: 1px solid black;
+    border: 12px solid white;
     margin: 1em;
 }
 img{
@@ -11,10 +11,15 @@ img{
     border: 1px solid black;
 }
 .conteTeam{
-    width: 28.4em;
+    width: 41.4em;
     display: flex;
     justify-content: space-between;
 }
 button{
     text-align: center;
+}
+.datePtd{
+    margin-top: 37px;
+    display: flex;
+    flex-direction: row-reverse;
 }

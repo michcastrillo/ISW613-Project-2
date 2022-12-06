@@ -4,10 +4,22 @@
 }
 table{
     width: 100%;
-    display: block;
-    border: 1px solid black;
+    border: 12px solid white;
     margin-bottom: 1rem;
 }
 h2{
     display: block;
+}
+.btnStand{
+    margin-left: 246px;
+}
+.lblStands{
+    margin-left: 467px;
+}
+.conteTablaE{
+    border: 5px solid white;
+}
+.thName{
+    display: inline-block;
+    margin-left: 41px;
 }

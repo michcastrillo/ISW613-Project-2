@@ -2,6 +2,7 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import Modulo from './Modulo'
 import TableStanding from './TableStanding';
+import './TableStanding.css';
 
 const Standing = () => {
   const [stand, setStand] = useState([]);
@@ -54,14 +55,18 @@ const Standing = () => {
   return (
     <div>
       <Modulo/>
-      <button onClick={handleClick}>See All</button>
-      <label htmlFor="group">Group</label>
-      <select name='groupId' id='selecDay' onChange={handleGrupo}>
-        {
-        grupo.length && (
-          grupo.map(element => (<option value={element} key={Math.random()*1000}>{element}</option>)))
-        }
-        </select>
+
+          <button className='btnStand' onClick={handleClick}>See All</button>
+          <label className='lblStands' htmlFor="group">Group:</label>
+          <select name='groupId' id='selecDay' onChange={handleGrupo}>
+
+      
+          {
+          grupo.length && (
+            grupo.map(element => (<option value={element} key={Math.random()*1000}>{element}</option>)))
+          }
+          </select>
+        
         {
         stand.length && (
           stand.map(ele=> <TableStanding grupo={ele.group} equipos={ele.teams}/>))
