@@ -13,7 +13,7 @@ const Navegation = () => {
   return (
     <div className='conteinerNav'>
         <div>
-            <p>{`Welcome: ${nameU}`}</p>
+            <p className='txtLR'>{`Welcome: ${nameU}`}</p>
         </div>
         <div className='linkClass'>
           <Link to={'/login'} onClick = {handleClick} className='Link'>Logout</Link>

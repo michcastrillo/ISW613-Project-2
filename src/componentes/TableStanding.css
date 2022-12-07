@@ -1,25 +1,28 @@
 .conteinerP{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 table{
-    width: 100%;
-    border: 12px solid white;
+    border: 12px solid #742f37;
     margin-bottom: 1rem;
 }
 h2{
     display: block;
+    margin-bottom: 20px;
 }
 .btnStand{
     margin-left: 246px;
+    width: 127px;
 }
 .lblStands{
     margin-left: 467px;
 }
 .conteTablaE{
-    border: 5px solid white;
+    border: 15px solid white;
 }
-.thName{
-    display: inline-block;
-    margin-left: 41px;
+table img{
+    margin-right: 12px;
+    margin-left: 44px;
 }

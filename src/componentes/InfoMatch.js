@@ -56,14 +56,14 @@ const InfoMatch = () => {
             <div className='conteGroup'>
               <h2>{`Grupo ${ele.group}`}</h2>
               <h3 className='titInfo'>{ele.time_elapsed}</h3>
-              <h4 className='titInfo'>{dateGame(ele.local_date)}</h4>
+              <p className='titInfo'>{dateGame(ele.local_date)}</p>
               {/* <h4>{`Day ${ele.matchday}`}</h4> */}
               <div className='conteTeamInfo'>
                 <h3>{ele.away_team_en}</h3>
                 <img src={ele.away_flag} alt={ele.away_team_en}/>
-                <h3>{ele.away_score}</h3>
+                <p>{ele.away_score}</p>
                 <h3>vrs</h3>
-                <h3>{ele.home_score}</h3>
+                <p>{ele.home_score}</p>
                 <img src={ele.home_flag} alt= {ele.home_team_en}/>
                 <h3>{ele.home_team_en}</h3>
             </div>
@@ -84,7 +84,7 @@ const InfoMatch = () => {
                 }
               </div>
             </div>
-            <Link to={'/matchs'}>Back</Link>
+            <Link to={'/matchs'} id='aColor'>Back</Link>
           </div>
           )))
         }

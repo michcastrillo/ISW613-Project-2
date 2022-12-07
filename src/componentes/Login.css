@@ -1,7 +1,7 @@
 body{
-    background-color: #E6E6FA;
+    background-color: white;
     border: none;
-
+    color: white;
 }
 .wrapper{
     display: grid;
@@ -17,10 +17,10 @@ form {
     display: grid;
     grid-gap: 10px;
     padding: 20px;
-    background-color: rgba(255,255,255,0.9);
+    background-color: #742f37;
     border-radius: 10px;
     box-shadow: black;
-    margin-top: 90px;
+    margin-top: -51px;
 }
 
 h2 {
@@ -28,39 +28,53 @@ h2 {
     font-size: 30px;
     font-weight: 100;
     margin-bottom: 5px;
+
 }
 
 fieldset {
-    background-color: #fff;
     border: none;
-    border-radius: 5px;
-    box-shadow: black;
-}
+    /* border-radius: 5px;
+    box-shadow: black; 
+    background-color: #fff; */
+} 
          
 p {
     padding-bottom: 2px;
+ 
 }
 label{
     padding-bottom: 2px;
+
 }
 input {
-    padding: 5px;
-    border: 1px solid #ddd;
+    padding: 9px;
+    border: 1px solid #742f37;
     border-radius: 5px;
     width: 320px;
 }
 
 button {
     padding: 10px;
-    border:2px solid #E6E6FA;
+    border-radius: 5px;
+    background: #fff;
+    width: 93%;
+    margin-left: 13px;
+    box-shadow: black;
+}
+/* button{
+    padding: 10px;
+    border:2px solid #742f37;
     border-radius: 5px;
     background: #fff;
     box-shadow: black; 
-}
+} */
 button:hover {
     color: #fff;
-    background-color: black; 
+    background-color: grey; 
 }
 h1{
     text-align: center;
+}
+.txtLR{
+    color:white;
 }

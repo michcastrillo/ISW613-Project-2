@@ -2,13 +2,14 @@
     width: 20%;
     margin: 0 auto;
     display: flex;
+    align-items: center;
 }
 
 .grupoClass{
     display: flex;
     align-items: center;
     margin-bottom: 4rem;
-    border: 12px solid white;
+    border: 12px solid #742f37;
     text-align: center;
 }
 h2 {
@@ -16,4 +17,13 @@ h2 {
 }
 h3{
     margin-right: 76px;
+}
+li {
+    display: flex;
+    margin-right: 2pc;
+    text-align: center;
+    align-items: center;
+}
+body{
+    color: black;
 }

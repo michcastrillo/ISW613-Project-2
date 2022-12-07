@@ -60,11 +60,11 @@ const Login = () => {
   return (
     <div className="wrapper">
         <form>
-            <h2>Log in!</h2>
+            <h2 className='txtLR'>Log in!</h2>
             <fieldset>
-                <p>Email:</p>
+                <p className='txtLR'>Email:</p>
                 <input type="email" name='mail' id="email" onChange={handleChange} />
-                <p>Password:</p>
+                <p className='txtLR'>Password:</p>
                 <input type="password" id="password" name='pass' onChange={handleChange}/>
                 </fieldset>
                 <button onClick={handleLogin}>Login</button>

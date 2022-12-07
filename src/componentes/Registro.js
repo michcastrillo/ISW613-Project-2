@@ -54,15 +54,15 @@ const Registro = () => {
   return (
     <div className="wrapper">
     <form>
-        <h2>Sign up</h2>
+        <h2 className='txtLR'>Sign up</h2>
         <fieldset>
-        <label htmlFor='name'>Name: </label>
+        <label className='txtLR' htmlFor='name'>Name: </label>
         <input type='text' id='name' name='name' onChange={hanbleForm}></input>
-        <label htmlFor='mail'>Email: </label>
+        <label className='txtLR' htmlFor='mail'>Email: </label>
         <input type='email' id='mail' name='mail' onChange={hanbleForm}></input>
-        <label htmlFor='pass'>Password:</label>
+        <label className='txtLR' htmlFor='pass'>Password:</label>
         <input type='password' id='pass' name='pass' onChange={hanbleForm}></input>
-        <label htmlFor='conpass'>Confirm password:</label>
+        <label className='txtLR' htmlFor='conpass'>Confirm password:</label>
         <input type='password' id='conpass' name='conpass' onChange={hanbleForm}></input>
         </fieldset>
         <button onClick={handleClick}>Create account</button>

@@ -1,7 +1,7 @@
 .conteinerNav{
     display: flex;
     justify-content: space-between;
-    background-color: #fff;
+    background-color: #742f37;
 }
 .linkClass{
     margin-top: 16px;
@@ -11,4 +11,7 @@ p {
     padding-bottom: 0px;
     margin-left: 16px;
     margin-bottom: 0px;
+}
+a{
+    color:white;
 }

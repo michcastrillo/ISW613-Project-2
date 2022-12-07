@@ -9,7 +9,7 @@ const TableStanding = ({grupo, equipos}) => {
                 <table className="table">
                     <thead className="table__thead">
                         <tr>
-                            <th className='thName'>Team</th>
+                            <th>Team</th>
                             <th className='conteTablaE'>MP</th>
                             <th className='conteTablaE'>W</th>
                             <th className='conteTablaE'>D</th>
@@ -28,8 +28,8 @@ const TableStanding = ({grupo, equipos}) => {
                                     <p>{ele.name_en}</p>
                                     <img src={ele.flag} alt={ele.name_en}/>
                                 </td>
-                                <td className='conteTablaE'>{ele.mp}</td>
-                                <td className='conteTablaE'>{ele.w}</td>
+                                <th className='conteTablaE'>{ele.mp}</th>
+                                <th className='conteTablaE'>{ele.w}</th>
                                 <th className='conteTablaE'>{ele.l}</th>
                                 <th className='conteTablaE'>{ele.d}</th>
                                 <th className='conteTablaE'>{ele.gf}</th>

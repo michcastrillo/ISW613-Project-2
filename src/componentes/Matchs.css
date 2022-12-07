@@ -6,27 +6,24 @@
     display: flex;
     align-items: center;
 }
-.conteMatchU{
-    display: flex;
-    border: 1px solid red;
-}
 .btnDate{
     padding: 10px;
-    width: 115px;
-    border: 2px solid #E6E6FA;
+    width: 127px;
+    border: 1px solid #742f37;
     border-radius: 5px;
     background: #fff;
 }
-input{
+/* input{
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
     width: 320px;
-}
+} */
 select#selecDay {
     width: 47px;
     padding: -2px;
     height: 36px;
+    border: 1px solid #742f37;
 }
 label{
     margin-right: 13px;
